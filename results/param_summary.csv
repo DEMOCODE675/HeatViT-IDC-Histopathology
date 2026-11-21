@@ -1,0 +1,189 @@
+name,kind,shape,params
+bb.cls_token,other,"[1, 1, 192]",192
+bb.pos_embed,other,"[1, 197, 192]",37824
+bb.patch_embed.proj.weight,weights,"[192, 3, 16, 16]",147456
+bb.patch_embed.proj.bias,biases,[192],192
+bb.blocks.0.norm1.weight,weights,[192],192
+bb.blocks.0.norm1.bias,biases,[192],192
+bb.blocks.0.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.0.attn.qkv.bias,biases,[576],576
+bb.blocks.0.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.0.attn.proj.bias,biases,[192],192
+bb.blocks.0.norm2.weight,weights,[192],192
+bb.blocks.0.norm2.bias,biases,[192],192
+bb.blocks.0.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.0.mlp.fc1.bias,biases,[768],768
+bb.blocks.0.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.0.mlp.fc2.bias,biases,[192],192
+bb.blocks.1.norm1.weight,weights,[192],192
+bb.blocks.1.norm1.bias,biases,[192],192
+bb.blocks.1.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.1.attn.qkv.bias,biases,[576],576
+bb.blocks.1.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.1.attn.proj.bias,biases,[192],192
+bb.blocks.1.norm2.weight,weights,[192],192
+bb.blocks.1.norm2.bias,biases,[192],192
+bb.blocks.1.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.1.mlp.fc1.bias,biases,[768],768
+bb.blocks.1.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.1.mlp.fc2.bias,biases,[192],192
+bb.blocks.2.norm1.weight,weights,[192],192
+bb.blocks.2.norm1.bias,biases,[192],192
+bb.blocks.2.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.2.attn.qkv.bias,biases,[576],576
+bb.blocks.2.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.2.attn.proj.bias,biases,[192],192
+bb.blocks.2.norm2.weight,weights,[192],192
+bb.blocks.2.norm2.bias,biases,[192],192
+bb.blocks.2.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.2.mlp.fc1.bias,biases,[768],768
+bb.blocks.2.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.2.mlp.fc2.bias,biases,[192],192
+bb.blocks.3.norm1.weight,weights,[192],192
+bb.blocks.3.norm1.bias,biases,[192],192
+bb.blocks.3.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.3.attn.qkv.bias,biases,[576],576
+bb.blocks.3.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.3.attn.proj.bias,biases,[192],192
+bb.blocks.3.norm2.weight,weights,[192],192
+bb.blocks.3.norm2.bias,biases,[192],192
+bb.blocks.3.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.3.mlp.fc1.bias,biases,[768],768
+bb.blocks.3.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.3.mlp.fc2.bias,biases,[192],192
+bb.blocks.4.norm1.weight,weights,[192],192
+bb.blocks.4.norm1.bias,biases,[192],192
+bb.blocks.4.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.4.attn.qkv.bias,biases,[576],576
+bb.blocks.4.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.4.attn.proj.bias,biases,[192],192
+bb.blocks.4.norm2.weight,weights,[192],192
+bb.blocks.4.norm2.bias,biases,[192],192
+bb.blocks.4.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.4.mlp.fc1.bias,biases,[768],768
+bb.blocks.4.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.4.mlp.fc2.bias,biases,[192],192
+bb.blocks.5.norm1.weight,weights,[192],192
+bb.blocks.5.norm1.bias,biases,[192],192
+bb.blocks.5.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.5.attn.qkv.bias,biases,[576],576
+bb.blocks.5.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.5.attn.proj.bias,biases,[192],192
+bb.blocks.5.norm2.weight,weights,[192],192
+bb.blocks.5.norm2.bias,biases,[192],192
+bb.blocks.5.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.5.mlp.fc1.bias,biases,[768],768
+bb.blocks.5.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.5.mlp.fc2.bias,biases,[192],192
+bb.blocks.6.norm1.weight,weights,[192],192
+bb.blocks.6.norm1.bias,biases,[192],192
+bb.blocks.6.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.6.attn.qkv.bias,biases,[576],576
+bb.blocks.6.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.6.attn.proj.bias,biases,[192],192
+bb.blocks.6.norm2.weight,weights,[192],192
+bb.blocks.6.norm2.bias,biases,[192],192
+bb.blocks.6.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.6.mlp.fc1.bias,biases,[768],768
+bb.blocks.6.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.6.mlp.fc2.bias,biases,[192],192
+bb.blocks.7.norm1.weight,weights,[192],192
+bb.blocks.7.norm1.bias,biases,[192],192
+bb.blocks.7.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.7.attn.qkv.bias,biases,[576],576
+bb.blocks.7.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.7.attn.proj.bias,biases,[192],192
+bb.blocks.7.norm2.weight,weights,[192],192
+bb.blocks.7.norm2.bias,biases,[192],192
+bb.blocks.7.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.7.mlp.fc1.bias,biases,[768],768
+bb.blocks.7.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.7.mlp.fc2.bias,biases,[192],192
+bb.blocks.8.norm1.weight,weights,[192],192
+bb.blocks.8.norm1.bias,biases,[192],192
+bb.blocks.8.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.8.attn.qkv.bias,biases,[576],576
+bb.blocks.8.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.8.attn.proj.bias,biases,[192],192
+bb.blocks.8.norm2.weight,weights,[192],192
+bb.blocks.8.norm2.bias,biases,[192],192
+bb.blocks.8.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.8.mlp.fc1.bias,biases,[768],768
+bb.blocks.8.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.8.mlp.fc2.bias,biases,[192],192
+bb.blocks.9.norm1.weight,weights,[192],192
+bb.blocks.9.norm1.bias,biases,[192],192
+bb.blocks.9.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.9.attn.qkv.bias,biases,[576],576
+bb.blocks.9.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.9.attn.proj.bias,biases,[192],192
+bb.blocks.9.norm2.weight,weights,[192],192
+bb.blocks.9.norm2.bias,biases,[192],192
+bb.blocks.9.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.9.mlp.fc1.bias,biases,[768],768
+bb.blocks.9.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.9.mlp.fc2.bias,biases,[192],192
+bb.blocks.10.norm1.weight,weights,[192],192
+bb.blocks.10.norm1.bias,biases,[192],192
+bb.blocks.10.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.10.attn.qkv.bias,biases,[576],576
+bb.blocks.10.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.10.attn.proj.bias,biases,[192],192
+bb.blocks.10.norm2.weight,weights,[192],192
+bb.blocks.10.norm2.bias,biases,[192],192
+bb.blocks.10.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.10.mlp.fc1.bias,biases,[768],768
+bb.blocks.10.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.10.mlp.fc2.bias,biases,[192],192
+bb.blocks.11.norm1.weight,weights,[192],192
+bb.blocks.11.norm1.bias,biases,[192],192
+bb.blocks.11.attn.qkv.weight,weights,"[576, 192]",110592
+bb.blocks.11.attn.qkv.bias,biases,[576],576
+bb.blocks.11.attn.proj.weight,weights,"[192, 192]",36864
+bb.blocks.11.attn.proj.bias,biases,[192],192
+bb.blocks.11.norm2.weight,weights,[192],192
+bb.blocks.11.norm2.bias,biases,[192],192
+bb.blocks.11.mlp.fc1.weight,weights,"[768, 192]",147456
+bb.blocks.11.mlp.fc1.bias,biases,[768],768
+bb.blocks.11.mlp.fc2.weight,weights,"[192, 768]",147456
+bb.blocks.11.mlp.fc2.bias,biases,[192],192
+bb.norm.weight,weights,[192],192
+bb.norm.bias,biases,[192],192
+bb.head.weight,weights,"[2, 192]",384
+bb.head.bias,biases,[2],2
+selectors.0.local.w,weights,"[3, 64, 32]",6144
+selectors.0.local.b,biases,"[3, 32]",96
+selectors.0.mlp1.w,weights,"[3, 64, 32]",6144
+selectors.0.mlp1.b,biases,"[3, 32]",96
+selectors.0.mlp2.w,weights,"[3, 32, 16]",1536
+selectors.0.mlp2.b,biases,"[3, 16]",48
+selectors.0.mlp3.w,weights,"[3, 16, 2]",96
+selectors.0.mlp3.b,biases,"[3, 2]",6
+selectors.0.att1.weight,weights,"[3, 3]",9
+selectors.0.att1.bias,biases,[3],3
+selectors.0.att2.weight,weights,"[3, 3]",9
+selectors.0.att2.bias,biases,[3],3
+selectors.1.local.w,weights,"[3, 64, 32]",6144
+selectors.1.local.b,biases,"[3, 32]",96
+selectors.1.mlp1.w,weights,"[3, 64, 32]",6144
+selectors.1.mlp1.b,biases,"[3, 32]",96
+selectors.1.mlp2.w,weights,"[3, 32, 16]",1536
+selectors.1.mlp2.b,biases,"[3, 16]",48
+selectors.1.mlp3.w,weights,"[3, 16, 2]",96
+selectors.1.mlp3.b,biases,"[3, 2]",6
+selectors.1.att1.weight,weights,"[3, 3]",9
+selectors.1.att1.bias,biases,[3],3
+selectors.1.att2.weight,weights,"[3, 3]",9
+selectors.1.att2.bias,biases,[3],3
+selectors.2.local.w,weights,"[3, 64, 32]",6144
+selectors.2.local.b,biases,"[3, 32]",96
+selectors.2.mlp1.w,weights,"[3, 64, 32]",6144
+selectors.2.mlp1.b,biases,"[3, 32]",96
+selectors.2.mlp2.w,weights,"[3, 32, 16]",1536
+selectors.2.mlp2.b,biases,"[3, 16]",48
+selectors.2.mlp3.w,weights,"[3, 16, 2]",96
+selectors.2.mlp3.b,biases,"[3, 2]",6
+selectors.2.att1.weight,weights,"[3, 3]",9
+selectors.2.att1.bias,biases,[3],3
+selectors.2.att2.weight,weights,"[3, 3]",9
+selectors.2.att2.bias,biases,[3],3

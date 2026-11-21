@@ -1,0 +1,11 @@
+model,device,batch,mean_ms,p50_ms,p95_ms,ms_per_img,fps
+Baseline DeiT,cuda,1,7.84,7.555,9.95,7.84,127.558
+Baseline DeiT,cuda,8,7.651,7.454,9.032,0.956,1045.602
+Baseline DeiT,cuda,64,26.598,26.562,27.121,0.416,2406.184
+"HeatViT (pruned, dense)",cuda,1,15.028,13.588,22.492,15.028,66.541
+"HeatViT (pruned, dense)",cuda,8,19.147,18.48,24.216,2.393,417.822
+"HeatViT (pruned, dense)",cuda,64,25.089,25.068,25.502,0.392,2550.959
+Baseline DeiT,cpu,1,58.486,57.557,62.523,58.486,17.098
+Baseline DeiT,cpu,8,335.892,302.415,420.919,41.986,23.817
+"HeatViT (pruned, dense)",cpu,1,78.004,78.677,83.982,78.004,12.82
+"HeatViT (pruned, dense)",cpu,8,252.11,248.496,273.543,31.514,31.732
